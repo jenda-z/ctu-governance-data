@@ -1,11 +1,49 @@
-meeting_id,candidate_name,orcid,faculty,field,eligible_voters,yes_votes,no_votes,invalid_votes,yes_pct,no_pct,invalid_pct
-2023-03-21,"doc. Ing. Radim Kocich, Ph.D.","","FS","Výrobní a materiálové inženýrství",32,32,0,0,100.0,0.0,0.0
-2023-03-21,"doc. Ing. Bc. Radoslav Sovják, Ph.D.","","FSv","Teorie stavebních konstrukcí a materiálů",33,31,2,0,93.9,6.1,0.0
-2023-04-18,"doc. Ing. Martin Keppert, Ph.D.","","FSv","Teorie stavebních konstrukcí a materiálů",34,33,0,1,97.1,0.0,2.9
-2023-04-18,"doc. Ing. David Vrba, Ph.D.","","FBMI","Biomedicínské inženýrství",34,31,1,2,91.2,2.9,5.9
-2021-11-23,"doc. Ing. arch. Michal Sedláček","","FA","Architektura",31,24,2,5,77.4,6.5,16.1
-2021-11-23,"doc. Ing. Jiří Jakovenko, Ph.D.","","FEL","Elektronika a lékařská technika",31,30,0,1,96.8,0.0,3.2
-2021-11-23,"doc. Ing. Jiří Kolísko, Ph.D.","","FSv","Teorie stavebních konstrukcí a materiálů",30,29,0,1,96.7,0.0,3.3
-2021-12-14,"doc. Ing. Alexander Kromka, Ph.D., DrSc.","","FJFI","(field not present in part01 → missing)",36,29,5,2,80.6,13.9,5.6
-2022-02-15,"doc. Dr. Ing. Michal Bednařík","","(unknown)","(unknown)",32,32,0,0,100.0,0.0,0.0
-2022-02-15,"doc. Ing. Michal Jandera, Ph.D.","","(unknown)","(unknown)",32,29,2,1,90.6,6.2,3.1
+﻿date,candidate_name,faculty,field,eligible_voters,yes_votes,no_votes,abstained
+02-15-22,doc. Dr. Ing. Michal Bednařík,Faculty of Electrical Engineering,Applied Physics,32,32,0,0
+02-15-22,"doc. Ing. Michal Jandera, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,32,29,2,1
+03-22-22,"doc. RNDr. Anton Trník, Ph.D.",Faculty of Electrical Engineering,Applied Physics,38,12,19,7
+03-22-22,"doc. Ing. Vít Šmilauer, Ph.D., DSc.",Faculty of Civil Engineering,Theory of Building Structures and Materials,39,39,0,0
+01-17-23,"doc. Mgr. Aleš Mráček, Ph.D.",Faculty of Mechanical Engineering,Production and Materials Engineering,42,35,3,4
+01-17-23,"doc. RNDr. Radomír Pánek, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Physics,42,39,1,2
+02-21-23,"doc. Ing. Jan Pacina, Ph.D.",Faculty of Civil Engineering,Geodesy and Cartography,40,16,21,3
+02-21-23,"doc. Ing. Karel Dušek, Ph.D.",Faculty of Electrical Engineering,Materials and Technologies for Electrical Engineering,40,39,1,0
+03-19-24,"doc. Ing. Petr Kolenko, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Physics,34,31,0,3
+06-18-24,"doc. Ing. Jaromír Dušek, Ph.D.",Faculty of Civil Engineering,Water Management and Water Structures,34,33,1,0
+10-22-24,"doc. RNDr. Pavla Bojarová, Ph.D.",Faculty of Biomedical Engineering,Biomedical Engineering,33,32,0,1
+10-22-24,"doc. Ing. Jiří Bittner, Ph.D.",Faculty of Electrical Engineering,Computer Science and Artificial Intelligence,34,34,0,0
+11-26-24,"doc. Ing. Jan Vorel, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,32,31,0,1
+11-26-24,"doc. Ing. Miroslav Bureš, Ph.D.",Faculty of Electrical Engineering,Informatics and Artificial Intelligence,33,32,1,0
+01-21-25,"doc. Ing. Pavel Tesárek, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,36,34,0,2
+01-21-25,"doc. RNDr. Petr Sváček, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Mathematics,34,32,1,1
+03-25-25,"doc. Ing. MSc. Petr Jizba, Ph.D.",Faculty of Nuclear and Physical Engineering,Physics,38,37,0,1
+03-25-25,"doc. Ing. Tomáš Matuška, Ph.D.",Faculty of Mechanical Engineering,Structural and Process Engineering,38,36,1,1
+03-25-25,"doc. Ing. Martin Böhm, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,38,30,4,4
+04-22-25,"doc. Ing. Martin Saska, Dr. rer. nat., Ph.D.",Faculty of Electrical Engineering,Cybernetics and Robotics,37,37,0,0
+04-22-25,"doc. RNDr. Silvia Dulanská, PhD.",Faculty of Nuclear and Physical Engineering,Nuclear Chemistry,37,29,4,4
+05-20-25,"doc. Ing. Martin Hromčík, Ph.D.",Faculty of Electrical Engineering,Cybernetics and Robotics,30,30,0,0
+05-20-25,"doc. RNDr. Tomáš Masopust, Ph.D.",Faculty of Information Technology,Informatics,30,24,2,4
+05-20-25,"doc. Ing. Libor Šnobl, Ph.D.",Faculty of Nuclear Science and Physical Engineering,Physics,30,30,0,0
+05-24-22,"doc. Ing. Jan Hošek, Ph.D.",Faculty of Mechanical Engineering,Structural and Process Engineering,31,30,0,1
+05-24-22,"doc. RNDr. Pavel Surynek, Ph.D.",Faculty of Information Technology,Computer Science,31,25,3,3
+06-21-22,"doc. Ing. Irena Kratochvílová, Ph.D.",Faculty of Nuclear and Physical Engineering,Physical and Materials Engineering,34,31,2,1
+06-21-22,"doc. Ing. Hanuš Seiner, Ph.D., DSc.",Faculty of Nuclear and Physical Engineering,Physical and Materials Engineering,34,34,0,0
+11-22-22,"doc. Ing. Jiří Mikyška, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Mathematics,33,32,0,1
+11-22-22,"doc. Ing. Václav Klika, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Mathematics,34,33,0,1
+03-21-23,"doc. Ing. Radim Kocich, Ph.D.",Faculty of Mechanical Engineering,Production and Materials Engineering,32,32,0,0
+03-21-23,"doc. Ing. Bc. Radoslav Sovják, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,33,31,2,0
+04-18-23,"doc. Ing. Martin Keppert, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,34,33,0,1
+04-18-23,"doc. Ing. David Vrba, Ph.D.",Faculty of Biomedical Engineering,Biomedical Engineering,34,31,1,2
+05-23-23,"doc. Ing. Zdeněk Bečvář, Ph.D.",Faculty of Electrical Engineering,Telecommunication Technology,32,31,0,1
+05-23-23,"doc. Ing. arch. Pavla Melková, Ph.D.",Faculty of Architecture,Architecture,32,26,1,5
+10-17-23,"doc. Ing. Miloslav Čapek, Ph.D.",Faculty of Electrical Engineering,Radioelectronics,33,32,0,0
+11-28-23,"doc. Mgr. Milan Krbálek, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Mathematics,35,29,3,3
+01-23-24,"doc. RNDr. Jan Vybíral, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Mathematics,32,31,1,0
+10-05-21,"doc. Mgr. Ondřej Chum, Ph.D.",Faculty of Electrical Engineering,Technical Cybernetics,33,33,0,0
+10-05-21,"doc. Ing. Tomáš Trojek, Ph.D.",Faculty of Nuclear and Physical Engineering,Applied Physics,34,34,0,0
+10-05-21,"doc. Ing. Martin Nikl, CSc.",Faculty of Nuclear and Physical Engineering,Applied Physics,34,34,0,0
+11-23-21,doc. Ing. arch. Michal Sedláček,Faculty of Architecture,Architecture,31,24,2,5
+11-23-21,"doc. Ing. Jiří Jakovenko, Ph.D.",Faculty of Electrical Engineering,Electronics and Medical Technology,31,30,0,1
+11-23-21,"doc. Ing. Jiří Kolísko, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,30,29,0,1
+12-14-21,"doc. Ing. Alexander Kromka, Ph.D., DrSc.",Faculty of Electrical Engineering,Applied Physics,36,29,5,2
+12-14-21,"doc. Ing. Eva Vejmelková, Ph.D.",Faculty of Civil Engineering,Theory of Building Structures and Materials,36,35,0,1
+12-14-21,doc. Ing. arch. Hana Seho,Faculty of Architecture,Architecture,36,30,3,3
