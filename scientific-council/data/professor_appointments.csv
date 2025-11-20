@@ -1,0 +1,11 @@
+meeting_id,candidate_name,orcid,faculty,field,eligible_voters,yes_votes,no_votes,invalid_votes,yes_pct,no_pct,invalid_pct
+2023-03-21,"doc. Ing. Radim Kocich, Ph.D.","","FS","Výrobní a materiálové inženýrství",32,32,0,0,100.0,0.0,0.0
+2023-03-21,"doc. Ing. Bc. Radoslav Sovják, Ph.D.","","FSv","Teorie stavebních konstrukcí a materiálů",33,31,2,0,93.9,6.1,0.0
+2023-04-18,"doc. Ing. Martin Keppert, Ph.D.","","FSv","Teorie stavebních konstrukcí a materiálů",34,33,0,1,97.1,0.0,2.9
+2023-04-18,"doc. Ing. David Vrba, Ph.D.","","FBMI","Biomedicínské inženýrství",34,31,1,2,91.2,2.9,5.9
+2021-11-23,"doc. Ing. arch. Michal Sedláček","","FA","Architektura",31,24,2,5,77.4,6.5,16.1
+2021-11-23,"doc. Ing. Jiří Jakovenko, Ph.D.","","FEL","Elektronika a lékařská technika",31,30,0,1,96.8,0.0,3.2
+2021-11-23,"doc. Ing. Jiří Kolísko, Ph.D.","","FSv","Teorie stavebních konstrukcí a materiálů",30,29,0,1,96.7,0.0,3.3
+2021-12-14,"doc. Ing. Alexander Kromka, Ph.D., DrSc.","","FJFI","(field not present in part01 → missing)",36,29,5,2,80.6,13.9,5.6
+2022-02-15,"doc. Dr. Ing. Michal Bednařík","","(unknown)","(unknown)",32,32,0,0,100.0,0.0,0.0
+2022-02-15,"doc. Ing. Michal Jandera, Ph.D.","","(unknown)","(unknown)",32,29,2,1,90.6,6.2,3.1
