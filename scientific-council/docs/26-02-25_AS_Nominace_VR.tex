@@ -1,0 +1,449 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[czech]{babel}
+
+% ========== DOCUMENT SETUP ==========
+% Page layout
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{setspace}
+\setstretch{1.0}
+\setlength{\headheight}{33pt}
+\setlength{\footskip}{20pt}
+
+% Fonts
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+
+% Core packages
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\definecolor{CTUblue}{HTML}{0065BD}
+\usepackage[colorlinks=true,linkcolor=CTUblue,urlcolor=CTUblue,citecolor=CTUblue]{hyperref}
+\usepackage{latexsym}
+\usepackage{tabularx}
+\usepackage{lastpage}
+
+% List formatting
+\usepackage{enumitem}
+\setlist{nosep}
+
+% Custom enumerate style for member lists
+\newlist{memberlist}{enumerate}{1}
+\setlist[memberlist]{
+  label=\arabic*.,
+  nosep,
+  leftmargin=*
+}
+
+% Inclusive language settings
+\newcommand{\inc}{\textasteriskcentered}
+
+% Structured member entry commands
+\newcommand{\memberComplete}[5]{%
+  \item \textbf{#1} - #2 - \href{#3}{Profil} - \href{#4}{ORCID} - \href{#5}{CV}
+}
+
+\newcommand{\memberRVH}[2]{%
+  \item \textbf{#1} - \href{#2}{UserMap}
+}
+
+% ========== HEADER & FOOTER ==========
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{%
+  \includegraphics[height=10mm]{figures/CVUT_znak.pdf}%
+}
+\rhead{\textcolor{CTUblue}{\small 4. zasedání AS ČVUT\\25. 2. 2026}}
+\chead{\textcolor{CTUblue}{\textbf{III.	Materiál -- Nominace VR}}\medskip}
+\rfoot{\thepage\ ze \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+
+% ========== TITLE ==========
+\title{Nominace Vědecké rady ČVUT}
+\author{Michal Pěchouček \and Jan Zeman}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\thispagestyle{fancy}
+
+\tableofcontents
+
+\section{Externí členky a členové}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{memberlist}
+
+\memberComplete{Bieliková Mária}
+{Kempelenov inštitút inteligentných technológií}
+{https://scholar.google.com/citations?user=wGB6dnEAAAAJ}
+{https://orcid.org/0000-0003-4105-3494}
+{https://drive.google.com/open?id=1luBCKkmRd8ekbdL-Ke5XLfs-SQKXpgoW}
+
+\memberComplete{Havlas Vojtěch}
+{Univerzita Karlova}
+{https://pubmed.ncbi.nlm.nih.gov/?term=Havlas+V\&cauthor_id=15456100}
+{https://orcid.org/0000-0002-2974-5511}
+{https://drive.google.com/open?id=1YGfpWf0Qgs1fYiGpoZCf3PQycjm9fNcg}
+
+\memberComplete{Herle Ivo}
+{Technische Universität Dresden}
+{https://scholar.google.com/citations?user=PKjVHWsAAAAJ}
+{https://orcid.org/0000-0002-9222-3361}
+{https://drive.google.com/open?id=1mnGITNeehYKY0F57Cy1uCuAop3DIjP1M}
+
+\memberComplete{Hermanský Hynek}
+{Johns Hopkins University / Vysoké učení technické v Brně}
+{https://scholar.google.com/citations?user=XrYcfFQAAAAJ}
+{https://orcid.org/0000-0001-8032-4811}
+{https://drive.google.com/open?id=1CeS3svvLdfGW4I1frc8GJsUR3O6F2qGf}
+
+\memberComplete{Hronová Stanislava}
+{Vysoká škola ekonomická v Praze}
+{https://cs.wikipedia.org/wiki/Stanislava_Hronov\%C3\%A1}
+{https://orcid.org/0000-0002-3568-9755}
+{https://drive.google.com/open?id=1guVDHTNC8pBExj0FcD6hJL4XiXVriKAU}
+
+\memberComplete{Janíček Ladislav}
+{Vysoké učení technické v Brně}
+{https://cs.wikipedia.org/wiki/Ladislav_Jan\%C3\%AD\%C4\%8Dek}
+{https://orcid.org/0000-0002-8364-7568}
+{https://drive.google.com/open?id=1LcxL1JDcQ_WgiBFXV7I-g0U-Q8YNfiVx}
+
+\memberComplete{Kejak Michal}
+{Univerzita Karlova}
+{https://scholar.google.com/citations?user=JK1ZLaMAAAAJ}
+{https://orcid.org/0000-0001-5593-4263}
+{https://drive.google.com/open?id=15kJ41X2YS1sOsY7GelN5FYFnPZBpES58}
+
+\memberComplete{Kittler Josef}
+{University of Surrey}
+{https://scholar.google.com/citations?user=pk-yb_kAAAAJ}
+{https://orcid.org/0000-0002-8110-9205}
+{https://drive.google.com/open?id=1z_s8piJLO-WhiVTme4W-0TFqo7JLqiDT}
+
+\memberComplete{Konvalinka Jan}
+{Akademie věd České republiky}
+{https://www.researchgate.net/profile/Jan-Konvalinka-3}
+{https://orcid.org/0000-0003-0695-9266}
+{https://drive.google.com/open?id=1mZz9ru4bc149s5tJ_Ai1P6TvHQDn_8ng}
+
+\memberComplete{Kratochvíl Jan}
+{Univerzita Karlova}
+{https://scholar.google.com/citations?user=AUbareUAAAAJ}
+{https://orcid.org/0000-0002-2620-6133}
+{https://drive.google.com/open?id=1UWFuNemUh7XEQ7oBfxZ3clMuTlgmiDhC}
+
+\memberComplete{Králíčková Milena}
+{Univerzita Karlova}
+{http://www.researcherid.com/rid/G-2297-2018}
+{https://orcid.org/0000-0003-1907-4774}
+{https://drive.google.com/open?id=1rxh6y1Rz94S7s_ZLHiA3bm9tMUxA6RpN}
+
+\memberComplete{Kučera Antonín}
+{Masarykova univerzita}
+{https://scholar.google.com/citations?user=HxIvytQAAAAJ}
+{https://orcid.org/0000-0002-6602-8028}
+{https://drive.google.com/open?id=1RcRVrSsvpoBGz2SPklBWYe4wZCs-g0rG}
+
+\memberComplete{Pospíšil Milan}
+{Vysoká škola chemicko-technologická}
+{https://cs.wikipedia.org/wiki/Milan_Posp\%C3\%AD\%C5\%A1il}
+{https://orcid.org/0000-0003-2939-6005}
+{https://drive.google.com/open?id=1pYus6_d_Wa4s8FSn7WtfSJaPctXbwwLe}
+
+\memberComplete{Pánek Radomír}
+{Akademie věd České republiky}
+{https://scholar.google.com/citations?user=fSL1q4MAAAAJ}
+{https://orcid.org/0000-0002-6106-3422}
+{https://drive.google.com/open?id=1puFzyqjo956tf7DMdA3MdAcWaFijM0Pi}
+
+\memberComplete{Vitková Ľubica}
+{Slovenská technická univerzita v Bratislave}
+{https://www.researchgate.net/profile/Lubica-Vitkova}
+{https://orcid.org/0009-0004-4199-5275}
+{https://drive.google.com/open?id=1k5AMyp0rqz7-TDyA0WFN_msC2wYuTm3g}
+
+\end{memberlist}
+
+\section{Interní členky a členové}
+
+\begin{memberlist}
+
+\memberComplete{Achten Henri Hubertus}
+{Fakulta architektury / ústav modelového projektování}
+{https://www.researchgate.net/profile/Henri-Achten}
+{https://orcid.org/0000-0002-8255-3471}{https://drive.google.com/open?id=1ao94wDZLZLZPKhK5tD8_3oVke3_iVwSb}
+
+\memberComplete{Bečvář Zdeněk}
+{Fakulta elektrotechnická / katedra telekomunikační techniky}
+{https://scholar.google.com/citations?user=SfxN77MAAAAJ}
+{https://orcid.org/0000-0001-5155-8192}
+{https://drive.google.com/open?id=1zdnGjAByL-PgimR1GBJdbvy0bOczBKHl}
+
+\memberComplete{Bojarová Pavla}
+{Fakulta biomedicínského inženýrství / katedra zdravotnických oborů a ochrany obyvatelstva}
+{https://www.researchgate.net/profile/Pavla-Bojarova}
+{https://orcid.org/0000-0001-7069-0973}
+{https://drive.google.com/open?id=11HcpPM2sF_SCFHby_NG8P13x_rAlqKI2}
+
+\memberComplete{Brůhová Klára}
+{Fakulta architektury / ústav teorie a dějin architektury}
+{https://www.fa.cvut.cz/en/faculty/people/419-klara-bruhova}
+{https://orcid.org/0000-0002-3395-7832}
+{https://drive.google.com/open?id=19NaVeTEQBywA5DJ6Tterhcfqkg9Sk81d}
+
+\memberComplete{Contreras Jesus Guillermo}
+{Fakulta jaderná a fyzikálně inženýrská / katedra fyziky}
+{https://scholar.google.com/citations?user=nm-dvOQAAAAJ}
+{https://orcid.org/0000-0002-9677-5294}
+{https://drive.google.com/open?id=1WZLfe0dT9SWGJInxgLdPlmXFd4x3ury1}
+
+\memberComplete{Čuba Václav}
+{Fakulta jaderná a fyzikálně inženýrská / děkanát}
+{https://fjfi.cvut.cz/en/people/cubavacl}
+{https://orcid.org/0000-0002-6401-8117}
+{https://drive.google.com/open?id=1ITiN9KFGPy-9_-cuoT1_LvXwN-ikG2ce}
+
+\memberComplete{Henrion Didier}
+{Fakulta elektrotechnická / katedra řídící techniky}
+{https://scholar.google.com/citations?user=UME_UEYAAAAJ}
+{https://orcid.org/0000-0001-6735-7715}
+{https://drive.google.com/open?id=1VS-H2GFwAzyzS691OSrWS6UbR6s52s3L}
+
+\memberComplete{Hlaváček Dalibor}
+{Fakulta architektury / děkanát}
+{https://www.fa.cvut.cz/en/faculty/people/309-dalibor-hlavacek}
+{https://orcid.org/0000-0002-4409-2328}
+{https://drive.google.com/open?id=1Sh43TnA6tRO7i4BmEH8NVhELzNHzKmWY}
+
+\memberComplete{Janoušek Jan}
+{Fakulta informačních technologií / děkanát}
+{https://scholar.google.com/citations?user=tErNl4MAAAAJ}
+{https://orcid.org/0000-0001-9329-1000}
+{https://drive.google.com/open?id=1O0utXe_z2G4MBlEKqHipoGALYWELhZJu}
+
+\memberComplete{Jex Igor}
+{Fakulta jaderná a fyzikálně inženýrská / katedra fyziky}
+{https://scholar.google.com/citations?user=9fT102MAAAAJ}
+{https://orcid.org/0000-0001-6802-9852}
+{https://drive.google.com/open?id=1ShXuBwLNiKsaaAfUUbIPmG2tgli3EAZf}
+
+\memberComplete{Jiroušek Ondřej}
+{Fakulta dopravní / katedra mechaniky a materiálů}
+{https://scholar.google.com/citations?user=WTdDCKMAAAAJ}
+{https://orcid.org/0000-0001-7065-6388}
+{https://drive.google.com/open?id=1ZimsuPZnrs0JB6HFCdxrMPsZ7o17YtmR}
+
+\memberComplete{Konvalinka Petr}
+{Fakulta stavební / děkanát}
+{https://www.researchgate.net/profile/Petr-Konvalinka-2}
+{https://orcid.org/0000-0001-7372-477X}
+{https://drive.google.com/open?id=1j2F-pN7VekHjjDfIEzKyoyewdV--u-AU}
+
+\memberComplete{Krištoufek Ladislav}
+{Fakulta informačních technologií / rektorát}
+{https://scholar.google.com/citations?user=EHbSKnkAAAAJ\&hl=en\&oi=ao}
+{https://orcid.org/0000-0003-4843-9373}
+{https://drive.google.com/open?id=19Fh1VF167QL69OjkmsxaHw3sYSWVWvD4}
+
+\memberComplete{Kubátová Hana}
+{Fakulta informačních technologií / katedra číslicového návrhu}
+{https://scholar.google.com/citations?user=Rkd929IAAAAJ}
+{https://orcid.org/0000-0002-5011-6891}
+{https://drive.google.com/open?id=1YKmVq2yqX-G16SD5LCCO8EglglH9S0mr}
+
+\memberComplete{Lupíšek Antonín}
+{Univerzitní centrum energeticky efektivních budov / sekretariát ředitele}
+{https://scholar.google.com/citations?user=qIE7zZgAAAAJ}
+{https://orcid.org/0000-0002-3142-2631}
+{https://drive.google.com/open?id=17_MkuagIJLEE18dEXQY4-mobnhLdvweB}
+
+\memberComplete{Masáková Zuzana}
+{Fakulta jaderná a fyzikálně inženýrská / katedra matematiky}
+{https://mathscinet.ams.org/mathscinet/author?authorId=635063}
+{https://orcid.org/0000-0003-1191-8688}
+{https://drive.google.com/open?id=1cegrsSyYO0WLC6oININ4plldtZW-gVmf}
+
+\memberComplete{Matas Jiří}
+{Fakulta elektrotechnická / katedra kybernetiky}
+{https://scholar.google.com/citations?user=EJCNY6QAAAAJ}
+{https://orcid.org/0000-0003-0863-4844}
+{https://drive.google.com/open?id=1eB_b5wQw-zr_bV_hmkC1QoraJh698bRH}
+
+\memberComplete{Matej Daniel}
+{Fakulta strojní / odbor biomechaniky}
+{https://scholar.google.com/citations?user=lQDKAA8AAAAJ}
+{https://orcid.org/0000-0003-0532-1965}
+{https://drive.google.com/open?id=116JGYU26p8GwdMzf9e1gMxBNcZPx7EKJ}
+
+\memberComplete{Novotný Stanislav}
+{Fakulta dopravní / děkanát}
+{https://scholar.google.com/citations?user=hV5qZbMAAAAJ}
+{https://orcid.org/0000-0001-8712-3721}
+{https://drive.google.com/open?id=1297sGqs6i-c2QHSXLOpsPNB87S6iX492}
+
+\memberComplete{Páta Petr}
+{Fakulta elektrotechnická / děkanát}
+{https://scholar.google.com/citations?user=cOhEJCsAAAAJ}
+{https://orcid.org/0000-0002-6561-9088}
+{https://drive.google.com/open?id=1txtNDWXRTMqCZdkGcxrPz9rsGHE0Zp7C}
+\memberComplete{Pěchouček Michal}
+{Fakulta elektrotechnická / centrum umělé inteligence}
+{https://scholar.google.com/citations?user=SdQcGHcAAAAJ}
+{https://orcid.org/0000-0002-2582-6795}
+{https://drive.google.com/open?id=1Dbs6f_8hVN--S1et72I03F5HrnJQHsCm}
+
+\memberComplete{Přibyl Ondřej}
+{Fakulta dopravní / katedra aplikované matematiky}
+{https://scholar.google.com/citations?user=_8Z2358AAAAJ}
+{https://orcid.org/0000-0002-6251-5881}
+{https://drive.google.com/open?id=1c7yMxFhY3c3HKXdK8GNogjB8n0qKk14R}
+
+\memberComplete{Ripka Pavel}
+{Fakulta elektrotechnická / katedra měření}
+{https://scholar.google.com/citations?user=F5NmzowAAAAJ}
+{https://orcid.org/0000-0003-1115-6265}
+{https://drive.google.com/open?id=1OVSpRhQ_RxCO6refBg0gNMHOPVIOX9MM}
+
+\memberComplete{Rosina Jozef}
+{Fakulta biomedicínského inženýrství / děkanát}
+{https://www.researchgate.net/profile/Jozef-Rosina-2}
+{https://orcid.org/0000-0002-5519-3028}
+{https://drive.google.com/open?id=1QGtsY656hVuC93aqRUSjNmFpkXvKNzge}
+
+\memberComplete{Španiel Miroslav}
+{Fakulta strojní / děkanát}
+{https://usermap.cvut.cz/profile/bfadcd5a-821f-4359-9eb5-af2d4c355d5b?lang=en}
+{https://orcid.org/0000-0003-3600-863X}
+{https://drive.google.com/open?id=1WTpMZzI6zbtkBMC0yGCO8jtEOAPuTKVQ}
+
+\memberComplete{Vogel Tomáš}
+{Fakulta stavební / katedra hydrauliky a hydrologie}
+{https://scholar.google.com/citations?user=WWE4dEgAAAAJ}
+{https://orcid.org/0000-0003-1700-6356}
+{https://drive.google.com/open?id=1R_0CpZFViFzClrJjTzcJLze2ZDWHuQDW}
+
+\memberComplete{Vyhlídal Tomáš}
+{Fakulta strojní / odbor automatického řízení}
+{https://scholar.google.com/citations?user=UE5FU9UAAAAJ}
+{https://orcid.org/0000-0002-1544-8575}
+{https://drive.google.com/open?id=1mE6acQlrG5Y03HeujI3WEBfQMkdTPMmD}
+
+\memberComplete{Zeman Jan}
+{Fakulta stavební / katedra mechaniky}
+{https://scholar.google.com/citations?user=ncrDMjEAAAAJ}
+{https://orcid.org/0000-0003-2503-8120}
+{https://drive.google.com/open?id=1LbrtUL_9sHJFXn7wlDZM3Uo4f36kj5op}
+
+\end{memberlist}
+
+\medskip\par\noindent
+Jeden další interní člen z Českého institutu informatiky, robotiky a kybernetiky bude navržen po jeho profesorském řízení, které v současné době probíhá.
+
+\section{Souhrnné statistiky}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{center}
+  \includegraphics{figures/01_nominace.pdf}
+\end{center}
+
+\begin{description}
+    \item[Fakultní:] Kandidáti\inc{}tky nominovaní\inc{}é fakultami.
+    
+    \item[Centrální (interní):] Kandidáti\inc{}tky z ČVUT navržení\inc{}é děkany, řediteli\inc{}kami součástí, rektorem, prorektory\inc{}kami nebo stávající vědeckou radou.
+    
+    \item[Centrální (externí):] Kandidáti\inc{}tky mimo ČVUT navržení\inc{}é děkany, řediteli\inc{}kami součástí, rektorem, prorektory\inc{}kami nebo stávající vědeckou radou.
+\end{description}
+
+\subsection{Nominace po oborech}
+
+\begin{center}
+  \includegraphics{figures/02_nominace_obory.pdf}
+\end{center}
+
+\subsection{Nominace po součástech (interní)}
+
+\begin{center}
+  \includegraphics{figures/03_nominace_soucasti.pdf}
+  %
+  \begin{flushleft}
+  $+1$~CIIRC po profesorké obhajobě     
+  \end{flushleft}
+\end{center}
+
+\subsection{Nominace po institucích (externí)}
+
+\begin{center}
+  \includegraphics{figures/04_nominace_instituce.pdf}
+\end{center}
+
+\subsection{Gender a kontinuita}
+
+\begin{center}
+  \includegraphics{figures/05_nominace_gender.pdf}
+\end{center}
+
+\section{Mimořádní členky a členové: Rada pro vnitřní hodnocení~(RVH)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{memberlist}
+
+\memberRVH{Blaha Jan}
+{https://usermap.cvut.cz/profile/a9e14b43-0741-4607-8cf5-eed3c0b43b13}
+
+\memberRVH{Hájek Petr}
+{https://usermap.cvut.cz/profile/6ee8b144-0568-487e-934a-e19da868db5c}
+
+\memberRVH{Hozman Jiří}
+{https://usermap.cvut.cz/profile/c3e758e0-d18c-4c5c-9f09-ebb23b252415}
+
+\memberRVH{Hurák Zdeněk}
+{https://usermap.cvut.cz/profile/ef417b1f-4726-4315-8374-8889b310d0d3}
+
+\memberRVH{Jakovenko Jiří}
+{https://usermap.cvut.cz/profile/3df65418-2d44-4e43-863e-fd8bea86c31d}
+
+\memberRVH{Jirásek Milan}
+{https://usermap.cvut.cz/profile/c6a61a60-3d66-4974-9743-735b3f3d94d4}
+
+\memberRVH{John Jan}
+{https://usermap.cvut.cz/profile/417ca8ab-4982-4bf2-96f6-3fde03b1bff9}
+
+\memberRVH{Kraus Jakub}
+{https://usermap.cvut.cz/profile/3df65418-2d44-4e43-863e-fd8bea86c31d}
+
+\memberRVH{Lábus Ladislav}
+{https://usermap.cvut.cz/profile/9130ff98-ab50-4363-bc83-8f5c2ef4d0a0}
+
+\memberRVH{Macek Jan}
+{https://usermap.cvut.cz/profile/58d30a06-66ae-463c-ac5f-f29ee8b777d0}
+
+\memberRVH{Malošíková Šárka}
+{https://usermap.cvut.cz/profile/0068ceb2-bc44-4d15-9b3b-dfbd8b05ef78}
+
+\memberRVH{Pajdla Tomáš}
+{https://usermap.cvut.cz/profile/f7959741-e9b0-4221-813f-c4a467f58723}
+
+\memberRVH{Pavlíková Milena}
+{https://usermap.cvut.cz/profile/425412bc-5c2d-4d85-aa87-e6ea04bf8dbd}
+
+\memberRVH{Řezníček Jan}
+{https://usermap.cvut.cz/profile/4d189b0f-fde3-4daa-8ac0-527ad2b45afa}
+
+\memberRVH{Tvrdík Pavel}
+{https://usermap.cvut.cz/profile/f7182925-e057-43e6-9a90-8fc3078a9b7e}
+
+\memberRVH{Vrba David}
+{https://usermap.cvut.cz/profile/c5f47b99-47ce-46a9-b87c-c5c28ce65572}
+
+\end{memberlist}
+
+\medskip\par\noindent
+Další informace o složení RVH jsou dostupné na \href{https://campuscvut.sharepoint.com/:f:/r/sites/inforek-9utpr/zasedani/Obdob%C3%AD%202026/26_2_25/Schvaleni%20RVH?csf=1&web=1&e=IBIG4A}{Inforeku}.
+
+\end{document}
